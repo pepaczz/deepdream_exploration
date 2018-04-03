@@ -1,0 +1,7 @@
+# ignore test
+test.txt
+
+.idea/
+.ipynb_checkpoints/
+archive_codes/
+codes/.ipynb_checkpoints/
