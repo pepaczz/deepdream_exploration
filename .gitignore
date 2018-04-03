@@ -5,3 +5,20 @@ test.txt
 .ipynb_checkpoints/
 archive_codes/
 codes/.ipynb_checkpoints/
+codes_backup/
+logdir/
+model/
+tf_logs/
+tf_logs_bckp/
+
+# TO DO file
+to_do.txt
+
+# Jupyter lab launcher
+_jupyter_lab_launcher_deepdream.txt
+
+# trained inception network
+inception5h.zip
+
+# large images
+img_in/langtang_large.jpg
