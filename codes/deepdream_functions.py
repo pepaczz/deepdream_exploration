@@ -426,7 +426,7 @@ def plot_inception_module(graph, t_input, sess, inception_module_id='mixed4a', m
         list_of_feature_maps.append(T(inception_module_id+'_'+layer_caption,graph)[:,:,:,map_numbers[j]])
 
     # define figure
-    fig = plt.figure(figsize=(15, 12))
+    fig = plt.figure(figsize=(12, 10))
     plt.suptitle(inception_module_id)
     
     # iterae over all feature maps
@@ -461,7 +461,8 @@ def render_deepdream_w_original(t_obj, t_input, sess, graph,
     render_image: if False then returns the numpy image array. Default True
     '''
     
-    plt.rcParams["figure.figsize"] = (15,6)
+    # plt.rcParams["figure.figsize"] = (15,6)
+    plt.rcParams["figure.figsize"] = (12,5)
 
     im_orig =load_render_deepdream(t_obj=t_obj, t_input=t_input, sess=sess, graph=graph, 
                                    img0=img0, save_path=None, orig_image_only=True, render_image = False)

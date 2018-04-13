@@ -7,9 +7,9 @@ archive_codes/
 codes/.ipynb_checkpoints/
 codes_backup/
 logdir/
-model/
 tf_logs/
 tf_logs_bckp/
+# model/  -> model file is also included so that one can replicate results from github
 
 # TO DO file
 to_do.txt
