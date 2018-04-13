@@ -1,5 +1,7 @@
 # Deepdream exploration
 
+![Rainforest](https://raw.githubusercontent.com/pepaczz/deepdream_exploration/master/img_out/prales.jpg)
+
 See [/codes/deepdream_explor_20180403a.ipynb](https://github.com/pepaczz/deepdream_exploration/blob/master/codes/deepdream_explor_20180403a.ipynb) for the main notebook. 
 
 Due to a lot of visualizations the binary is rather large (18 MB) and reloading might be necessary to show it in GitHub. If problems prevail please [download the html](https://github.com/pepaczz/deepdream_exploration/blob/master/codes/deepdream_explor_20180403a.html) and open it on your computer.
